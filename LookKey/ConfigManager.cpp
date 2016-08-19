@@ -61,10 +61,10 @@ void ConfigManager::SetValue(CONFIG_KEY_STR & configKey, const PWSTR value, cons
     ); 
 }
 
-void ConfigManager::SetValue(CONFIG_KEY_INT & configKey, int value, const PWSTR comment)
+void ConfigManager::SetValue(CONFIG_KEY_INT & configKey, int value, const PWSTR comment, bool useHex)
 {
     throw_if_fail(
-        m_ini.SetLongValue(configKey.section, configKey.iniKey, value, comment, true)
+        m_ini.SetLongValue(configKey.section, configKey.iniKey, value, comment, useHex)
     );
 }
 

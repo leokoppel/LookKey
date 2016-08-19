@@ -52,7 +52,7 @@ public:
     bool GetValue(CONFIG_KEY_BOOL & configKey) const;
 
     void SetValue(CONFIG_KEY_STR & configKey, const PWSTR value, const PWSTR comment = NULL);
-    void SetValue(CONFIG_KEY_INT & configKey, int value, const PWSTR comment = NULL);
+    void SetValue(CONFIG_KEY_INT & configKey, int value, const PWSTR comment = NULL, bool useHex = false);
     void SetValue(CONFIG_KEY_DOUBLE & configKey, double value, const PWSTR comment = NULL);
     void SetValue(CONFIG_KEY_BOOL & configKey, bool value, const PWSTR comment = NULL);
 
