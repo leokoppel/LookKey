@@ -3,6 +3,8 @@
 LookKey is an intuitive and good-looking keystroke and mouse press visualizer for Windows.
 It provides on-screen display of keypresses and clicks, ideal for screencasts and presentations.
 
+![Small example of typing and clicking with LookKey](https://github.com/leokoppel/lookkey/raw/master/example.gif)
+
 ## Features
 * Small (140kb) portable native executable
 * Shows multiple real-time keystrokes, mouse actions, or both
